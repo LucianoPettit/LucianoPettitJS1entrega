@@ -25,11 +25,11 @@ alert(`El precio total del juego con impuestos es: ${precioTotal}`);
 
 // Verifica si el precio total es mayor que $7000
 if (precioTotal > 7000) {
-  console.log(
+  alert(
     "El precio total supera los $7000. Estas seguro que deseas gastar mas de $7000 en un juego crack ?."
   );
 } else {
-  console.log(
+  alert(
     "El precio total no supera los $7000. Puedes realizar la compra sin problemas!."
   );
 }
