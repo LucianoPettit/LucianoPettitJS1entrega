@@ -1,0 +1,38 @@
+/* reset de pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+/* fin de reset */
+
+/* body/html */
+html,
+body {
+  background: black;
+}
+/* fin del body/html */
+
+section h1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 80px;
+  border-top: 2px dotted white;
+  padding-top: 110px;
+}
+section h2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-bottom: 2px dotted white;
+  padding: 10px;
+  font-size: 30px;
+}
