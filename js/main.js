@@ -23,13 +23,13 @@ const precioTotal = precioBase + impuesto;
 // Imprime el resultado del valor del juego mas impuestos  
 alert(`El precio total del juego con impuestos es: ${precioTotal}`);
 
-// Verifica si el precio total es mayor que $5000
+// Verifica si el precio total es mayor que $7000
 if (precioTotal > 5000) {
   console.log(
-    "El precio total supera los $5000. Estas seguro que deseas gastar mas de $5000 en un juego ?."
+    "El precio total supera los $7000. Estas seguro que deseas gastar mas de $7000 en un juego ?."
   );
 } else {
   console.log(
-    "El precio total no supera los $5000. Puedes realizar la compra sin problemas!."
+    "El precio total no supera los $7000. Puedes realizar la compra sin problemas!."
   );
 }
